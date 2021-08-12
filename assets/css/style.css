@@ -17,7 +17,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     padding: 0 0 5px 0;
-    /* background-color: burlywood; */
+    background-color:lightblue;
 }
 
 #logo>img{
@@ -63,6 +63,7 @@ h1{
     margin-left: 200px;
     position: relative;
     width: 75%;
+    margin-bottom: 180px;
     
 }
 
@@ -94,9 +95,10 @@ li::before{
 footer{
     display: flex;
     justify-content:space-evenly;
-    /* background-color: burlywood */; 
-    height: 100px;  
+    background-color:lightblue;
+    height: 102px;  
     margin: 100px 0 0 0;
+    position: relative;
 }
 
 footer>img{
