@@ -25,6 +25,7 @@ const options = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
   for(let button of buttons){
     button.addEventListener('click', function(){
     let playerOption = this.getAttribute('data-type');
+    console.log(typeof(playerOption))
         // alert(`You clicked${playerOption}`)
         playGame(playerOption);
     });
@@ -52,9 +53,39 @@ function playGame(playerOption){
     
 
          let result = determineWinner(options[playerOption], options[computerOption]) 
+
+         console.log(result)
         
-        updatePoints(result);       
+        // updatePoints(result);       
 }
 
 
-// function determineWinner(options[playerOption], options[computerOption] )
+function determineWinner( computerOption, playerOption){
+
+  computerOption = computerImage.alt;
+  playerOption =  playerImage.alt;
+
+  if(computerOption===playerOption){
+    message.textContent = 'It is a tie'
+    return message
+  } else if (computerOption !== playerOption){
+    if(computerOption === options[0] && playerOption === options[2] ||
+      computerOption === options[0] && playerOption === options[3] ||
+      computerOption === options[2] && playerOption === options[1] ||
+      computerOption === options[2] && playerOption === options[3] ||
+      computerOption === options[4] && playerOption === options[0] ||
+      computerOption === options[4] && playerOption === options[2] ||
+      computerOption === options[1] && playerOption === options[0] ||
+      computerOption === options[1] && playerOption === options[4] ||
+      computerOption === options[3] && playerOption === options[1] ||
+      computerOption === options[3] && playerOption === options[4]){
+        message.textContent = 'Computer wins!'
+        return message
+    } else {
+        message.textContent = 'You win!'
+        return message
+    }
+  }
+
+
+}
