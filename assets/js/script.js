@@ -50,13 +50,11 @@ function playGame(playerOption){
     
         computerImage.alt = options[computerOption];
 
-    
-
          let result = determineWinner(options[playerOption], options[computerOption]) 
 
          console.log(result)
         
-        // updatePoints(result);       
+        updatePoints(result);       
 }
 
 
@@ -65,9 +63,10 @@ function determineWinner( computerOption, playerOption){
   computerOption = computerImage.alt;
   playerOption =  playerImage.alt;
 
-  if(computerOption===playerOption){
-    message.textContent = 'It is a tie'
-    return message
+  if(computerOption === playerOption){
+    return 'It is a tie!'
+    // message.textContent = 'It is a tie'
+    // return message
   } else if (computerOption !== playerOption){
     if(computerOption === options[0] && playerOption === options[2] ||
       computerOption === options[0] && playerOption === options[3] ||
@@ -79,13 +78,33 @@ function determineWinner( computerOption, playerOption){
       computerOption === options[1] && playerOption === options[4] ||
       computerOption === options[3] && playerOption === options[1] ||
       computerOption === options[3] && playerOption === options[4]){
-        message.textContent = 'Computer wins!'
-        return message
+        return 'Computer wins!'
+        // message.textContent = 'Computer wins!'
+        // return message
     } else {
-        message.textContent = 'You win!'
-        return message
+        return 'You win!'
+        // message.textContent = 'You win!'
+        // return message
     }
   }
+}
 
+function updatePoints(result){
+
+  if (result === 'Computer wins!'){
+    ++computerScore.textContent
+    console.log(computerScore)
+    message.textContent = 'Computer wins!'
+    // return message
+  } else if (result === 'You win!'){
+    ++playerScore.textContent;
+    console.log(playerScore)
+     message.textContent = 'You win!'
+    //  return message
+    } else{
+      computerScore.textContent
+      playerScore.textContent
+      message.textContent = 'It is a tie!'
+    } 
 
 }
