@@ -111,7 +111,7 @@ p{
 
 .button-dv{
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 
@@ -141,6 +141,8 @@ p{
 #motivation-message{
     text-align: center;
     font-size: larger;
+    position: relative;
+    bottom: 250px;
 }
 
 
@@ -150,8 +152,11 @@ p{
 }
 
 #player-image{
+    /* background-color: lightblue; */
+    height: 250px;
+    width: 250px;
     padding-top: 30px;
-}
+    }
 
 .computer{
     position: relative;
@@ -162,7 +167,11 @@ p{
 }
 
 #computer-image{
+    /* background-color: lightgreen; */
+    height: 250px;
+    width: 250px;
     padding-top: 30px;
+    
 }
 
 /* footer section */
