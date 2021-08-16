@@ -14,9 +14,10 @@ const computerImage = document.getElementById('computer-image');
 
 const message = document.getElementById('message')
 
+const motivationMessage = document.getElementById('motivation-message')
+
 const options = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
  
-
 
 /**
  * Add event listners to the buttons
@@ -95,15 +96,18 @@ function updatePoints(result){
     ++computerScore.textContent
     console.log(computerScore)
     message.textContent = 'Computer wins!'
+    motivationMessage.textContent = "Don't give up!"
     // return message
   } else if (result === 'You win!'){
     ++playerScore.textContent;
     console.log(playerScore)
+     motivationMessage.textContent = ''
      message.textContent = 'You win!'
     //  return message
     } else{
       computerScore.textContent
       playerScore.textContent
+      motivationMessage.textContent = '' 
       message.textContent = 'It is a tie!'
     } 
 

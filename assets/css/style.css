@@ -138,6 +138,12 @@ p{
     bottom: 300px; */
 }
 
+#motivation-message{
+    text-align: center;
+    font-size: larger;
+}
+
+
 .player{
     padding: 30px 150px 0 0;
     margin-right: 250px;
