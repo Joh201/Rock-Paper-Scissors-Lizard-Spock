@@ -64,17 +64,30 @@ body{
     text-align: center;
 }
 
-.game-rules{
+/* .rule-list{
 
+
+} */
+
+.game-rules{
+    /* new */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-evenly;
+    margin-right: 0px; */
+    /* new */
     margin-left: 200px;
     position: relative;
     width: 75%;
+    /* old */
     /* padding-bottom: 100px; 
     margin-bottom: 180px;  */
     
 }
 
 ul{
+    /* display: flex;
+    flex-wrap: wrap; */
     list-style-type:none;
     width: 75%;
 }
@@ -91,12 +104,11 @@ li::before{
     margin-left: 200px;
 }
 
-.rule-image{
+  .rule-image{
     position:absolute;
     right:400px;
-    bottom:60px;
-
-}
+    bottom:60px; 
+}  
 
 /* game section */
 
@@ -105,6 +117,7 @@ li::before{
     text-align: center;
     /* padding: 0 100px 40px;
     margin:0 250px 20px */
+    margin: 0 160px 0 160px;
 }
 
 p{
@@ -200,3 +213,105 @@ footer>img{
     border-radius: 50%;
 }
 
+/* Media queries */
+
+/* For screens  with 1679px and down */
+@media screen and (max-width:1679px) {
+
+    .rule-image{
+        right:300px;
+    }
+   
+ }
+
+ /* For screens  with 1575px and down */
+@media screen and (max-width:1575px) {
+
+    .rule-image{
+        right:230px;
+    }  
+ }
+
+ /* For screens  with 1450px and down */
+ @media screen and (max-width:1450px) {
+
+    .rule-image{
+        right:200px;
+    }  
+ }
+
+ /* For screens  with 1380px and down */
+ @media screen and (max-width:1380px) {
+
+    .rule-image{
+        right:150px;  
+    }  
+ }
+
+  /* For screens  with 1320px and down */
+  @media screen and (max-width:1320px) {
+
+    ul{
+        margin-left: -66px;
+    }
+
+    .rule-image{
+        right:75px;   
+    }  
+ }
+
+ /* For screens  with 1165px and down */
+ @media screen and (max-width:1165px) {
+
+    ul{
+        margin-left: -150px;
+    }
+
+ }
+
+ /* For screens  with 1006px and down */
+ @media screen and (max-width:1006px) {
+
+    #rule-title{
+        padding-left: 120px;
+    }  
+
+    ul{
+        margin-left: -260px;
+    }
+ }
+
+ .game-section{
+    margin: 0 100px 0 100px;
+
+ }
+
+ /* For screens  with 860px and down */
+ @media screen and (max-width:860px) {
+
+  #rule-title{
+      padding-left: 85px;
+  }
+
+  h1{
+      font-size: x-large;
+  }
+
+ }
+
+ 
+ /* For screens  with 800px and down */
+ @media screen and (max-width:800px) {
+
+    #rule-title{
+        padding-left: 85px;
+    }  
+  
+    h1{
+        font-size: x-large;
+    }
+
+    ul{
+        margin-left: -268px;
+    }
+ }  
