@@ -319,17 +319,13 @@ footer>img{
  /* For screens  with 414px and down */
 @media screen and (max-width:414px) {
 
+   /* Rules-page */
+
     /* header seaction */
 
-    .nav-bar{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        } 
-   
         .nav-menu{
-
-            margin: 30px 30px 0 0;
+            padding-left:50px;
+            margin: 30px 30px 0 -200px;
             display:flex;
             justify-content:space-evenly; 
     
@@ -339,9 +335,7 @@ footer>img{
             margin:  0 0;
             font-size:large;
             font-weight:500;
-            letter-spacing: 2px;
         }
-
 
      #logo>img{
         border-radius: 50%;
@@ -351,8 +345,59 @@ footer>img{
        }
 
        #logo{
-        margin: 10px 0 0 80px;
+        margin: 10px 0 0 -136px;
        }
+
+       /* body section */
+       h1{
+        font-size: medium;
+        }  
+
+    #rule-title{
+        padding:30px 0 30px 0;
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .game-rules{
+       
+        padding-left: 20px;
+        position:relative; 
+        width:100%;   
+    }
+
+    ul{
+        /* display: flex;
+        flex-wrap: wrap; */
+        list-style-type:none;
+        width: 75%;
+    }
+    
+    
+    li::before{
+        content: "\263B";
+        color: coral;
+        font-size: medium;
+        font-weight:bold;
+        padding-right: 10px;
+        text-align: justify;
+        line-height: 200%;
+        margin-left: 130px;
+    }
+
+    .rule-image{
+        
+        position:absolute;
+        left:100px;
+        bottom:60px; 
+        left: 0px;
+        top: 370px;
+    }  
+
+    .rule-image>img{
+        margin-left: -160px;
+    
+    }   
 
        /* footer section */
 
@@ -361,11 +406,11 @@ footer>img{
         justify-content:space-evenly;
         background-color:lightblue;
         height: 60px;  
-       
-       
+      
     }
     
     footer>img{
+        padding-top: 5px;
         border-radius: 50%;
         width:50px;
         height: 50px;
