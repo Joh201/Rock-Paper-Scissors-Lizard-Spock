@@ -65,8 +65,7 @@ body{
 }
 
 /* .rule-list{
-
-
+ float:left
 } */
 
 .game-rules{
@@ -105,6 +104,7 @@ li::before{
 }
 
   .rule-image{
+      
     position:absolute;
     right:400px;
     bottom:60px; 
@@ -303,6 +303,10 @@ footer>img{
  /* For screens  with 800px and down */
  @media screen and (max-width:800px) {
 
+    .game-rules{
+        margin-left: 120px;
+    } 
+
     #rule-title{
         padding-left: 85px;
     }  
@@ -313,6 +317,23 @@ footer>img{
 
     ul{
         margin-left: -268px;
+    }
+
+    .rule-image{
+        right: 10px;
+    }
+ }  
+
+ /* For screens  with 685px and down */
+ @media screen and (max-width:685px) {
+
+    .game-rules{
+        margin-left: 83px;
+        padding-right: 71px;
+    } 
+
+    .rule-image{
+        right: 0px;
     }
  }  
 
