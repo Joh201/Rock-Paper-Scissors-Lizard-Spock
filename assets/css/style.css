@@ -222,7 +222,7 @@ footer>img{
     border-radius: 50%;
 }
 
-/* Media queries */
+/* Media queries for the game rules page */
 
 /* For screens  with 1679px and down */
 @media screen and (max-width:1679px) {
@@ -365,6 +365,43 @@ footer>img{
         margin-left: -246px;
     }
  }  
+
+
+ /* Media queries for the play game page  */
+
+ /* For screens  with 765px and down */
+
+@media screen and (max-width:765px) {
+
+ .game-section{
+     margin: 0 50px 0 50px;
+     }
+
+ }
+
+  /* For screens  with 670px and down */
+
+@media screen and (max-width:670px) {
+
+    .game-section{
+        margin: 0 25px 0 25px;
+        }
+   
+    }
+
+     /* For screens  with 615px and down */
+
+@media screen and (max-width:615px) {
+
+    .game-section{
+        margin: 0 10px 0 10px;
+        }
+   
+    }
+   
+
+
+
 
  /* For screens  with 635px and down */
 
