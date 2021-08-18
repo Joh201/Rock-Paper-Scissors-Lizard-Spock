@@ -113,8 +113,9 @@ li::before{
 /* game section */
 
 .game-section{
-    position: relative;
+    /* position: relative; */
     text-align: center;
+    /* old */
     /* padding: 0 100px 40px;
     margin:0 250px 20px */
     margin: 0 160px 0 160px;
@@ -160,16 +161,22 @@ p{
 }
 
 #motivation-message{
+    /* margin: auto;
+    width: 50%; */
     text-align: center;
     font-size: larger;
-    position: relative;
-    bottom: 250px;
+    margin-top: 350px;
+    /* position: absolute;
+    bottom: 250px; 
+    left: 770px; */
 }
 
 
 .player{
-    padding: 30px 150px 0 0;
-    margin-right: 250px;
+
+    float:left;
+    /* padding: 30px 150px 0 0;
+    margin-right: 250px; */
 }
 
 #player-image{
@@ -180,11 +187,13 @@ p{
     }
 
 .computer{
-    position: relative;
+
+    float: right;
+    /* position: relative;
     bottom:316px;
     left:350px;
     padding-right: 204px;
-    margin-right: 150px;
+    margin-right: 150px; */
 }
 
 #computer-image{
@@ -347,7 +356,7 @@ footer>img{
     li::before{
         font-size:large;
     }
-    
+
     ul>li{
         margin-left: -20px;
     }
