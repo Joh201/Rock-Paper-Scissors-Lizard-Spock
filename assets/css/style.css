@@ -377,8 +377,8 @@ footer>img{
 
     }
     .rule-image>img{
-       width: 65%;
-       height: 65%;
+       width: 60%;
+       height: 60%;
        padding-left: 90px;
     }
 
@@ -386,7 +386,8 @@ footer>img{
 
  /* For screens  with 600px and down */
  @media screen and (max-width:600px) {
-     
+
+    
  #logo>img{
     margin-top: 13px;
     width: 60px;
@@ -408,34 +409,32 @@ footer>img{
    #rule-title {
     padding: 90px 50px 20px 5px;
     margin: 20px 0px;
-
 }
 
    h1 {
     font-size: larger;
-}
+   }
 
     .game-rules{
         margin-left: 90px;
         padding-right: 110x;
-        width: 70%;
-    } 
+        width: 83%;
+    }  
 
+    
     .rule-image{
-        /* margin-top: 50px; */
-        width:78%;
+        width:65%;
     }
 
     .rule-image>img{
        width: 50%;
        height: 50%;
-       /* padding-right:16px; */
-       /* padding-left: 40px;
-       margin-right: 20px; */
+       /* padding-left: 0px; */
     }
 
+    
     li::before{
-        font-size:medium;
+        font-size:small;
     }
 
     ul>li{
@@ -456,67 +455,32 @@ footer>img{
  }  
 
 
- /* For screens  with 545px and down */
- /* @media screen and (max-width:545px) { */
+ /* For screens  with 508px and down */
+ @media screen and (max-width:508px) {  
 
- /* #logo>img{
-    margin-top: 13px;
-    width: 60px;
-    height: 60px;
-    padding: 0 0 0 0;
- }
-
- .nav-menu {
-    margin-top: 40px;
-  }
-
- .nav-menu>a {
-    padding: 0px 30px;
-    margin: 0px 30px;
-    font-size: larger;
-    font-weight: 600;
-   }
-
-   #rule-title {
-    padding: 90px 50px 20px 5px;
-    margin-top: 20px;
-}
-
-   h1 {
-    font-size: larger;
-}
-
-    .game-rules{
-        margin-left: 90px;
-        padding-right: 108px;
-        width: 100%;
-    }  */
-
-    /* .rule-image{
-        text-align: center;
-        right: 0px;
-        padding-right: 10px;
-
-    } */
-    /* .rule-image>img{
-       width: 65%;
-       height: 65%;
-       padding-right:16px;
-       margin-right: 20px;
+    .nav-menu>a {
+        margin: 0px 18px;
     }
 
-    li::before{
-        font-size:small;
+    h1 {
+        font-size: medium;
+       }
+
+     .game-rules{
+        width: 87%;
+    }  
+
+    .rule-image{
+        width:78%;
     }
 
     ul>li{
         margin-left: -20px;
+        margin-right: -59px;
     }
-    
-    ul{
-        margin-left: -246px;
-    } */
- /* }   */
+
+ }
+
 
  /* Media queries for the play game page  */
 
@@ -547,6 +511,46 @@ footer>img{
         } 
     }
    
+        /* For screens  with 600px and down */
+
+@media screen and (max-width:600px) {
+
+    #player-image{
+        height: 150px;
+        width: 150px;
+        padding-top: 30px;
+        }
+
+     #computer-image{
+        height: 150px;
+        width: 150px;
+        padding-top: 30px;
+        }
+    }
+
+          /* For screens  with 586px and down */
+
+@media screen and (max-width:586px) {
+
+   
+.buttons{
+    height: 35px;
+    width:  58px;
+    font-size: 12px;
+    margin-right:25px; 
+   } 
+
+   .player {
+    margin-left: 40px;
+    }
+  
+    .computer {
+    margin-right: 40px;
+    }
+
+}
+
+
 
 
 
