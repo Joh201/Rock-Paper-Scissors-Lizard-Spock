@@ -382,53 +382,84 @@ footer>img{
        padding-left: 90px;
     }
 
-     /* .game-rules{
-        margin-right: 83px;
-        padding-right: 71px;
-    }   */
-
  }  
 
  /* For screens  with 600px and down */
  @media screen and (max-width:600px) {
+     
+ #logo>img{
+    margin-top: 13px;
+    width: 60px;
+    height: 60px;
+    padding: 0 0 0 0;
+ }
 
-    /* .game-rules{
-        margin-left: 83px;
-        padding-right: 71px;
-    }  */
+ .nav-menu {
+    margin-top: 40px;
+  }
 
-    /* h1{
-        font-size: large;
-    }
-   
+ .nav-menu>a {
+    padding: 0px 30px;
+    margin: 0px 30px;
+    font-size: larger;
+    font-weight: 600;
+   }
+
+   #rule-title {
+    padding: 90px 50px 20px 5px;
+    margin: 20px 0px;
+
+}
+
+   h1 {
+    font-size: larger;
+}
+
+    .game-rules{
+        margin-left: 90px;
+        padding-right: 110x;
+        width: 70%;
+    } 
+
     .rule-image{
-     width: 80%;
+        /* margin-top: 50px; */
+        width:78%;
+    }
 
-    } */
-    /* .rule-image>img{
-       width: 75%;
-       height: 75%;
-       margin-right: 20px;
-    } */
+    .rule-image>img{
+       width: 50%;
+       height: 50%;
+       /* padding-right:16px; */
+       /* padding-left: 40px;
+       margin-right: 20px; */
+    }
 
-    /* li::before{
-        font-size:large;
+    li::before{
+        font-size:medium;
     }
 
     ul>li{
         margin-left: -20px;
+        margin-right: -41px;
     }
     
-    ul{
+    /* ul{
         margin-left: -246px;
     } */
+
+    footer>img{
+    padding-top: 20px;
+    width: 70px;
+    height: 70px;
+    }
+
  }  
 
 
  /* For screens  with 545px and down */
- @media screen and (max-width:545px) {
+ /* @media screen and (max-width:545px) { */
 
- #logo>img{
+ /* #logo>img{
     margin-top: 13px;
     width: 60px;
     height: 60px;
@@ -459,7 +490,7 @@ footer>img{
         margin-left: 90px;
         padding-right: 108px;
         width: 100%;
-    } 
+    }  */
 
     /* .rule-image{
         text-align: center;
@@ -467,9 +498,9 @@ footer>img{
         padding-right: 10px;
 
     } */
-    .rule-image>img{
-       width: 70%;
-       height: 70%;
+    /* .rule-image>img{
+       width: 65%;
+       height: 65%;
        padding-right:16px;
        margin-right: 20px;
     }
@@ -484,8 +515,8 @@ footer>img{
     
     ul{
         margin-left: -246px;
-    }
- }  
+    } */
+ /* }   */
 
  /* Media queries for the play game page  */
 
