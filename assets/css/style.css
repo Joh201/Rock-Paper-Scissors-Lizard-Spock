@@ -148,6 +148,7 @@ p {
 .player {
 
     float: left;
+    margin-left:200px;
 }
 
 #player-image {
@@ -159,6 +160,7 @@ p {
 .computer {
 
     float: right;
+    margin-right:200px;
 }
 
 #computer-image {
@@ -262,6 +264,7 @@ footer>img {
     padding: 0 1px 0 1px;
 
 }
+
 
 /* For screens  with 860px and down */
 @media screen and (max-width:860px) {
@@ -482,6 +485,39 @@ footer>img {
 
 
 /* Media queries for the play game page  */
+
+
+/* For screens  with 1200px and down */
+
+@media screen and (max-width:1200px) {
+
+    .player {
+        margin-left:50px;
+    }
+    
+    .computer {
+        margin-right:50px;
+    }    
+  
+}
+
+/* For screens  with 930px and down */
+
+@media screen and (max-width:930px) {
+
+    .player {
+        margin-left:10px;
+    }
+    
+    .computer {
+        margin-right:10px;
+    }    
+
+    .game-section {
+        margin: 0 80px 0 80px;
+    }
+  
+}
 
 /* For screens  with 765px and down */
 
