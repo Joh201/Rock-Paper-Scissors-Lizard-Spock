@@ -606,8 +606,8 @@ footer>img {
     /* header seaction */
 
     .nav-menu {
-        padding-left: 61px;
-        margin: 52px 30px 0 -30px;
+        padding-left: 21px;
+        margin: 52px 30px 0 -57px;
         display: flex;
     }
 
@@ -627,7 +627,7 @@ footer>img {
     }
 
     #logo {
-        margin: 10px 0 0 4px;
+        margin: 10px 0 0 1px;
     }
 
     /* body section */
