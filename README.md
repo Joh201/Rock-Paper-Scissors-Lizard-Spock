@@ -2,7 +2,7 @@
 <p>
 This game was invented by <b>Sam Kass and Karen Bryla</b> and it was popularized by the American sitcom <b>The Big Bang Theory</b>. Just like the ordinary Rock, Paper and Scissors game, it is a fun game to play with friends and family memmbers. Since, the game is based on random results it introduces the element of fairness into the play. Thus,  players can play without the feeling of being cheated. It has been shown that familiar people playing the ordinary Rock, Paper and Scissors are more likey to draw when they play the game; however, this game reduces the probability of a draw by introducing two more options <b>Lizard and Spock</b>, whick makes the game more fun and challenging.This game is simple and easy to understand and hence it can be played by children and adults. Moreover, this webbased game is accessible to anyone who wants to play the game. Since, the games motto is based on fairness through randomness, it imparts the social value of being fair towards others. </p>
 
-![Website-look](assets/images/Website-look.PNG)
+![Website-look](assets/images/Website-look.png)
 
 ## Existing features
 
@@ -14,7 +14,7 @@ This game was invented by <b>Sam Kass and Karen Bryla</b> and it was popularized
 </li>
 </ul>
 
-![navigation-menu](assets/images/nav-bar.PNG)
+![navigation-menu](assets/images/nav-bar.png)
 
 
 ### The Rules page 
@@ -32,7 +32,7 @@ This game was invented by <b>Sam Kass and Karen Bryla</b> and it was popularized
 <li> It also introduces the user to the icons of the five choices of the game.</li>
 </ul>
 
-![rules page](assets/images/rules-body.PNG)
+![rules page](assets/images/rules-body.png)
 
 
 
@@ -50,7 +50,7 @@ This game was invented by <b>Sam Kass and Karen Bryla</b> and it was popularized
  </ul>
   </li>
   
-![buttons](assets/images/buttons.PNG)
+![buttons](assets/images/buttons.png)
 
 
   <li>
@@ -70,7 +70,7 @@ This game was invented by <b>Sam Kass and Karen Bryla</b> and it was popularized
   </li>
 </ul>
 
-![results](assets/images/results.PNG)
+![results](assets/images/results.png)
 
 
 ### The Footer
@@ -78,7 +78,7 @@ This game was invented by <b>Sam Kass and Karen Bryla</b> and it was popularized
 <li> The footer contains icons of the five choices of the game and it further reminds the user about the looks of the options.</li>
 <li> The icons in the footer also add to the aesthetic value of the page.</li>
 
-![footer](assets/images/footer.PNG)
+![footer](assets/images/footer.png)
 
 ## Features Left to Implement
  <ul>
@@ -130,11 +130,11 @@ This game was invented by <b>Sam Kass and Karen Bryla</b> and it was popularized
 
   ### The Rules page accessibility
 
-![Rules page accessibility](assets/images/rules.PNG)
+![Rules page accessibility](assets/images/rules.png)
 
 ### Play Game page accessibility
 
-![Play Game page accessibility](assets/images/play-game.PNG)
+![Play Game page accessibility](assets/images/play-game.png)
 
 
 ## Bugs
@@ -171,5 +171,4 @@ The live link can be found here: https://joh201.github.io/Rock-Paper-Scissors-Li
    3.  https://ibmathsresources.com/tag/paper-scissors-rock/  
   </li>
  </ul>
-
 
