@@ -1,6 +1,6 @@
 # Rock Paper Scissors Lizard Spock
 <p>
-This game was invented by <b>Sam Kass and Karen Bryla</b> and it was popularized by the American sitcom <b>The Big Bang Theory</b>. Just like the ordinary Rock, Paper and Scissors game, it is a fun game to play with friends and family memmbers. Since, the game is based on random results it introduces the element of fairness into the play. Thus,  players can play without the feeling of being cheated. It has been shown that familiar people playing the ordinary Rock, Paper and Scissors are more likey to draw when they play the game; however, this game reduces the probability of a draw by introducing two more options <b>Lizard and Spock</b>, whick makes the game more fun and challenging.This game is simple and easy to understand and hence it can be played by children and adults. Since, the games motto is based on fairness through randomness, it imparts the social value of being fair towards others. </p>
+This game was invented by <b>Sam Kass and Karen Bryla</b> and it was popularized by the American sitcom <b>The Big Bang Theory</b>. Just like the ordinary Rock, Paper and Scissors game, it is a fun game to play with friends and family memmbers. Since, the game is based on random results it introduces the element of fairness into the play. Thus,  players can play without the feeling of being cheated. It has been shown that familiar people playing the ordinary Rock, Paper and Scissors are more likey to draw when they play the game; however, this game reduces the probability of a draw by introducing two more options <b>Lizard and Spock</b>, whick makes the game more fun and challenging.This game is simple and easy to understand and hence it can be played by children and adults. Moreover, this webbased game is accessible to anyone who wants to play the game. Since, the games motto is based on fairness through randomness, it imparts the social value of being fair towards others. </p>
 
 ![Website-look](assets/images/Website-look.PNG)
 
@@ -29,6 +29,7 @@ This game was invented by <b>Sam Kass and Karen Bryla</b> and it was popularized
 
 <ul>
 <li> This page also contains a diagramatic representation of the rules of the game inorder to further help the user understand how the game works, and to see the interactions between the five available options. </li>
+<li> It also introduces the user to the icons of the five choices of the game</li>
 </ul>
 
 ![rules page](assets/images/rules-body.PNG)
@@ -44,22 +45,44 @@ This game was invented by <b>Sam Kass and Karen Bryla</b> and it was popularized
    The Game options
    <ul>
      <li>It clearly instructs the user to choose an option to start playing the game and hence avoids confusion on the players part.</li>
-     <li> This section contains buttons that represent each of the available choices of the game, and enables the user to make a choice by clicking one of the buttons that represent a particular choice: Rock, Paper, Scissors, Lizard or Spock.</li>
+     <li> This section contains buttons that represent each of the available choices of the game, and enables the user to make a choice by clicking one of the buttons that refer to a particular choice: Rock, Paper, Scissors, Lizard or Spock. </li>
+     <li> The computer makes a random choice with the help of the javascript algorithm.</li>
  </ul>
   </li>
   
-
 ![buttons](assets/images/buttons.PNG)
 
 
   <li>
   The Game results
      <ul>
-       <li> </li>
+     <li> This section is divided into the players and computers area</li>
+       <li> when the user clicks one of the buttons it displays the outcome of the game, and shows the score of the player and the computer on their respective side.</li>
+       <li> It also displays one of the following messages depending on who won (player or computer) the game:</li>
+         <ul>
+           <li> It is a tie! </li>
+           <li> You win! </li>
+           <li> Computer wins! </li>
+        </ul>
+      <li> whenever the computer wins the game, it displays an encouragement message: Don't give up!</li>
+      <li> This section shows the updated score of the player and computer in each play, and thus the user gets a progress report immediately.</li>   
    </ul>
   </li>
 </ul>
 
+![results](assets/images/results.PNG)
 
 
+
+### The footer
+
+<li> The footer contains icons of the five choices of the game and it further reminds the user about the looks of the options</li>
+<li> The icons in the footer also add to the aesthetic value of the page</li>
+
+![footer](assets/images/footer.PNG)
+
+### Features Left to Implement
+ <ul>
+  <li> When time allows I would like to improve the game so that the user plays against another player instead of a computer</li>
+</ul>
 
