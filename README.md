@@ -73,7 +73,6 @@ This game was invented by <b>Sam Kass and Karen Bryla</b> and it was popularized
 ![results](assets/images/results.PNG)
 
 
-
 ### The Footer
 
 <li> The footer contains icons of the five choices of the game and it further reminds the user about the looks of the options.</li>
@@ -81,13 +80,13 @@ This game was invented by <b>Sam Kass and Karen Bryla</b> and it was popularized
 
 ![footer](assets/images/footer.PNG)
 
-### Features Left to Implement
+## Features Left to Implement
  <ul>
   <li> When time allows I would like to improve the game so that the user plays against another player instead of a computer.</li>
 </ul>
 
 
-### Testing 
+## Testing 
 
 <ul>
 <li>The website works on different browsers: Chrome, Microsoft Edge, Firefox.</li>
@@ -117,10 +116,61 @@ This game was invented by <b>Sam Kass and Karen Bryla</b> and it was popularized
 
    <li> Javascript code
   <ul>
-  <li> No error was detected when passing through the official (JSHint) validator, but there were a few minor warnings.</li>
+  <li> No error was detected when passing through the official (JSHint) validator, but there were three minor warnings.</li>
   </ul> 
 </li> 
-
 </ul>
+
+## Accessibility
+
+<ul>
+  <li> The acessibility was tested using lighthouse in the devtools and it shows that the colors and fonts used for the website are user friendly.</li>
+  </ul> 
+
+
+  ### The Rules page accessibility
+
+![Rules page accessibility](assets/images/rules.PNG)
+
+### Play Game page accessibility
+
+![Play Game page accessibility](assets/images/play-game.PNG)
+
+
+## Unfixed bugs
+
+No bugs were detected
+
+
+## Deployment
+
+<ul>
+  <li> The site was deployed to GitHub pages as follows:
+   <ul>
+   <li> In the GitHub repository, navigate to the Settings tab</li>
+   <li>From the source section drop-down menu, select the Master or Main Branch</li>
+   <li>Once the master or main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.</li>
+   </ul>
+</ul>
+
+The live link can be found here: https://joh201.github.io/Rock-Paper-Scissors-Lizard-Spock/
+
+### Credits
+
+
+#### Content
+  <ul>
+  <li>Instructions on how to implement form validation on the contact page was adapted from the course work</li>
+  <li> The text for the home page and meditation types were taken from the following websites:
+
+   1. https://gethealthyu.com/different-types-of-meditation/
+
+   2. https://www.moveyourspirityoga.com/5-types-of-meditation/
+
+   3. https://choosemuse.com/blog/6-types-of-meditation/ 
+
+  </li>
+  <li> The social media logos were taken from wikipedia.</li>
+ </ul>
 
 
