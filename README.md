@@ -95,7 +95,7 @@ This game was invented by <b>Sam Kass and Karen Bryla</b> and it was popularized
 <li>The results section of the game display appropriate messages depending on who won the game and update the score of the winner.</li>
 </ul>
 
-### Validator Testing
+## Validator Testing
 <ul>
 <li>HTML
   <ul>
@@ -137,7 +137,9 @@ This game was invented by <b>Sam Kass and Karen Bryla</b> and it was popularized
 ![Play Game page accessibility](assets/images/play-game.PNG)
 
 
-## Unfixed bugs
+## Bugs
+
+### Unfixed bugs
 
 No bugs were detected
 
@@ -158,19 +160,16 @@ The live link can be found here: https://joh201.github.io/Rock-Paper-Scissors-Li
 ### Credits
 
 
-#### Content
+### Content
   <ul>
-  <li>Instructions on how to implement form validation on the contact page was adapted from the course work</li>
-  <li> The text for the home page and meditation types were taken from the following websites:
+  <li> The logo picutre, the rules of the game and diagramatic representation of the rules were taken from the following websites respectively:
+   
+   1. https://www.pngwing.com/en/free-png-ycasl 
 
-   1. https://gethealthyu.com/different-types-of-meditation/
+   2. https://www.reddit.com/r/bigbangtheory/comments/1kspzj/rock_paper_scissors_lizard_spock/
 
-   2. https://www.moveyourspirityoga.com/5-types-of-meditation/
-
-   3. https://choosemuse.com/blog/6-types-of-meditation/ 
-
+   3.  https://ibmathsresources.com/tag/paper-scissors-rock/  
   </li>
-  <li> The social media logos were taken from wikipedia.</li>
  </ul>
 
 
