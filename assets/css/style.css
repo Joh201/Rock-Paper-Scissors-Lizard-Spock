@@ -26,7 +26,6 @@ body {
 
 #logo>img {
     border-radius: 50%;
-    /*text-decoration: none;*/
     margin-top: 5px;
 }
 
@@ -57,12 +56,10 @@ body {
 /* rules of the game section */
 
 #rule-title {
-
     padding: 140px 0 50px 0;
     width: 75%;
     text-align: center;
 }
-
 
 .game-rules {
     margin-left: 200px;
@@ -75,9 +72,11 @@ ul {
     width: 75%;
 }
 
+/*  Bullet formating was adapted from:
+  https://howto-wordpress-tips.com/change-bullet-point-color-replace-shape-css/ */
 
 li::before {
-    content: "\263B";
+    content: "\263B"; 
     color: coral;
     font-size: x-large;
     font-weight: bold;
@@ -88,7 +87,6 @@ li::before {
 }
 
 .rule-image {
-
     position: absolute;
     right: 400px;
     bottom: 60px;
@@ -97,7 +95,6 @@ li::before {
 /* game section */
 
 .game-section {
-
     text-align: center;
 }
 
@@ -114,7 +111,6 @@ p {
     text-align: center;
     padding-bottom: 50px;
 }
-
 
 .buttons {
     align-items: center;
@@ -144,11 +140,9 @@ p {
     margin-top: 350px;
 }
 
-
 .player {
-
     float: left;
-    margin-left:200px;
+    margin-left: 200px;
 }
 
 #player-image {
@@ -158,9 +152,8 @@ p {
 }
 
 .computer {
-
     float: right;
-    margin-right:200px;
+    margin-right: 200px;
 }
 
 #computer-image {
@@ -492,13 +485,13 @@ footer>img {
 @media screen and (max-width:1200px) {
 
     .player {
-        margin-left:50px;
+        margin-left: 50px;
     }
-    
+
     .computer {
-        margin-right:50px;
-    }    
-  
+        margin-right: 50px;
+    }
+
 }
 
 /* For screens  with 930px and down */
@@ -506,17 +499,17 @@ footer>img {
 @media screen and (max-width:930px) {
 
     .player {
-        margin-left:10px;
+        margin-left: 10px;
     }
-    
+
     .computer {
-        margin-right:10px;
-    }    
+        margin-right: 10px;
+    }
 
     .game-section {
         margin: 0 80px 0 80px;
     }
-  
+
 }
 
 /* For screens  with 765px and down */
@@ -612,7 +605,6 @@ footer>img {
     }
 
     .nav-menu>a {
-
         padding: 0 6px 0 12px;
         margin: 0 0;
         font-size: large;

@@ -1,6 +1,6 @@
 # Rock Paper Scissors Lizard Spock
 <p>
-This game was invented by <b>Sam Kass and Karen Bryla</b> and it was popularized by the American sitcom <b>The Big Bang Theory</b>. Just like the ordinary Rock, Paper and Scissors game, it is a fun game to play with friends and family memmbers. Since, the game is based on random results it introduces the element of fairness into the play. Thus,  players can play without the feeling of being cheated. It has been shown that familiar people playing the ordinary Rock, Paper and Scissors are more likey to draw when they play the game; however, this game reduces the probability of a draw by introducing two more options <b>Lizard and Spock</b>, whick makes the game more fun and challenging.This game is simple and easy to understand and hence it can be played by children and adults. Moreover, this webbased game is accessible to anyone who wants to play the game. Since, the games motto is based on fairness through randomness, it imparts the social value of being fair towards others. </p>
+This game was invented by <b>Sam Kass and Karen Bryla</b> and it was popularized by the American sitcom <b>The Big Bang Theory</b>. Just like the ordinary Rock, Paper and Scissors game, it is a fun game to play with friends and family members. Since, the game is based on random results it introduces the element of fairness into the play. Thus,  players can play without the feeling of being cheated. It has been shown that familiar people playing the ordinary Rock, Paper and Scissors are more likey to draw when they play the game; however, this game reduces the probability of a draw by introducing two more options <b>Lizard and Spock</b>, whick makes the game more fun and challenging.This game is simple and easy to understand and hence it can be played by children and adults. Moreover, this webbased game is accessible to anyone who wants to play the game. Since, the games motto is based on fairness through randomness, it imparts the social value of being fair towards others. </p>
 
 ![Website-look](assets/images/Website-look.jpg)
 
@@ -8,7 +8,7 @@ This game was invented by <b>Sam Kass and Karen Bryla</b> and it was popularized
 
 ### Nagvigation Bar
 <ul>
-<li>This is featured on the two pages of the website. The responsive navigation bar allows the user to move between the different pages easily without the need to use the back button. </li>
+<li>This is featured on the two pages of the website. The responsive navigation bar allows the user to move between the different pages easily without the need to use the back  button. </li>
 <li>
  It contains links to the Logo of the page, the Rules page and the Play game page. Furthermore, when the Logo is clicked it takes the user to the rules page.
 </li>
@@ -22,11 +22,9 @@ This game was invented by <b>Sam Kass and Karen Bryla</b> and it was popularized
 <ul>
 <li> This page introduces the user to the name of the game: Rock Paper Scissors Lizard Spock </li>
 </ul>
-
 <ul>
-<li> The page familiarizes the user with the rules of the game and it clearly shows the user what is considered a win or a loose .</li>
+<li> The page familiarizes the user with the rules of the game and it clearly shows the user what is considered a win or a loss.</li>
 </ul>
-
 <ul>
 <li> This page also contains a diagramatic representation of the rules of the game inorder to further help the user understand how the game works, and to see the interactions between the five available options. </li>
 <li> It also introduces the user to the icons of the five choices of the game.</li>
@@ -44,7 +42,7 @@ This game was invented by <b>Sam Kass and Karen Bryla</b> and it was popularized
   <li>
    The Game options
    <ul>
-     <li>It clearly instructs the user to choose an option to start playing the game and hence avoids confusion on the players part.</li>
+     <li>It clearly instructs the user to choose an option inorder to start playing the game and hence avoids confusion on the players part.</li>
      <li> This section contains buttons that represent each of the available choices of the game, and enables the user to make a choice by clicking one of the buttons that refer to a particular choice: Rock, Paper, Scissors, Lizard or Spock. </li>
      <li> The computer makes a random choice with the help of the javascript algorithm.</li>
  </ul>
@@ -64,7 +62,7 @@ This game was invented by <b>Sam Kass and Karen Bryla</b> and it was popularized
            <li> You win! </li>
            <li> Computer wins! </li>
         </ul>
-      <li> whenever the computer wins the game, it displays an encouragement message: Don't give up!</li>
+      <li> whenever the computer wins the game, it displays an encouragement message to the user: Don't give up!</li>
       <li> This section shows the updated score of the player and computer in each play, and thus the user gets a progress report immediately.</li>   
    </ul>
   </li>
@@ -99,7 +97,7 @@ This game was invented by <b>Sam Kass and Karen Bryla</b> and it was popularized
 <ul>
 <li>HTML
   <ul>
-  <li> No error was detected when passing through the official W3C validator.</li>
+  <li> No error was detected when passing through the official (W3C) validator.</li>
   </ul> 
 </li> 
 
@@ -157,7 +155,7 @@ No bugs were detected
 
 The live link can be found here: https://joh201.github.io/Rock-Paper-Scissors-Lizard-Spock/
 
-### Credits
+## Credits
 
 
 ### Content
